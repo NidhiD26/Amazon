@@ -107,6 +107,7 @@ span{
 }
 
 /**box5**/
+
 .nav-cart i{
     font-size: 30px;
 }
@@ -114,4 +115,30 @@ span{
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700 ;
+}
+
+/** panel **/
+.panel {
+    height: 40px;
+    background-color: #222f3f;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
 }

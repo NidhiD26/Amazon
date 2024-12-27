@@ -210,12 +210,31 @@ footer{
     margin-top: 15px;
 }
 
-.foort-panel1{
+.foot-panel1{
     background-color: #37475a;
     color: white;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd ;
 }
